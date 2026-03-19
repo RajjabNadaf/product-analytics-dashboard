@@ -14,7 +14,7 @@ st.set_page_config(page_title="Product Analytics", layout="wide")
 # -----------------------------
 # Reads dataset from your data folder
 # If path error comes, try 'data/events.csv'
-df = pd.read_csv(r'data/events.csv')
+df = pd.read_csv(r'data/events_sample.csv')
 
 # Convert event_time to datetime (important for time-based analysis later)
 df['event_time'] = pd.to_datetime(df['event_time'])

@@ -11,5 +11,4 @@ analytics_env/
 # Mac
 .DS_Store
 
-# Data
-data/
+data/events.csv
